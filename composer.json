@@ -1,0 +1,31 @@
+{
+  "name": "concordia/plaxo",
+  "description": "API for Plaxo.com",
+  "type": "library",
+  "keywords": [
+    "plaxo",
+    "api"
+  ],
+  "require": {
+    "psr/http-message": "~1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.6.0",
+    "mockery/mockery": "~0.9.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Concordia\\Plaxo\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ConcordiaTest\\Plaxo\\": "test/src"
+    }
+  },
+  "suggest": {
+    
+  },
+  "repositories": [
+  ]
+}
